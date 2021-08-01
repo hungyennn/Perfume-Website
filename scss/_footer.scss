@@ -1,0 +1,27 @@
+.footer{
+    background: #916000;
+    max-width: 100%;
+}
+.bottom{
+    @media(max-width: 768px) {
+        height: 80px;
+    }
+}
+.copyright {
+    img{
+        margin-right: 23px;
+    }
+    p{
+        color: #fff;
+        font-size: 14px;
+    }
+}
+.footer ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 28px 18px;
+    &:hover{
+        color: rgb(199, 199, 199);
+    }
+}

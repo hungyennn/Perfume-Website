@@ -1,0 +1,53 @@
+.brand a{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0;
+    margin-right: 28px;
+}
+.merchandise_item{
+   margin: 15px 0;
+    img{
+        width: 255px;
+        height: 255px;
+        @media(max-width: 768px) {
+            width: 165px;
+            height: 165px;
+        }
+    }
+    p{
+        padding-bottom: 16px;
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    span{
+        margin-left: 8px;
+        text-decoration: line-through;
+        color: #8D8D8D;
+    }
+    div{
+        margin-bottom: 15px;
+    }
+
+}
+.another_color{
+    color: #AC8A46;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.page a{
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    &:hover{
+        opacity: 0.5;
+    }
+    margin-bottom: 60px;
+    @media(max-width:768px){
+        margin-bottom: 40px;
+    }
+}

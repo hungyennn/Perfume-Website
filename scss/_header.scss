@@ -1,0 +1,34 @@
+.logo a{
+    background-image: url(../pic/d’Perfume.png);
+    width: 128px;
+    height: 38px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-indent: 101%;
+}
+.header .menu a{
+    position: relative;
+    display: block;
+    padding: 15px;
+    color: #8D8D8D;
+    font-size: 20px;
+}
+.header .menu i{
+    padding: 3px;
+    @media(max-width: 768px) {
+        padding: 0;
+    }
+}
+
+@media (max-width:768px){
+    .header .menu em{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #916000;
+        color: #fff;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+    }
+}
